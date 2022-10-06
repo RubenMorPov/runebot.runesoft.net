@@ -1,7 +1,9 @@
 @import './Fonts.css';
 @import './components/components.css';
+@import './views/views.css';
 
 .App {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;

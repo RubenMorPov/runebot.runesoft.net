@@ -1,0 +1,37 @@
+.rs-menu {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rs-menu-header {
+    background: linear-gradient(to right, #35c3c1, #00d6b7);
+    min-height: 2px;
+}
+
+.rs-menu-title {
+    padding: 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 15px;
+    border-top-right-radius: 2px;
+}
+
+.rs-menu-item-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.rs-menu-item {
+    flex: 1;
+    padding-left: 10px;
+    border-bottom: solid 1px transparent;
+}
+
+.rs-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    border-bottom: solid 1px #00d6b7;
+}
