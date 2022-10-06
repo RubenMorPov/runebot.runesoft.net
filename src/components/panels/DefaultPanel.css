@@ -1,0 +1,35 @@
+.rs-default-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.rs-panel-header {
+    background: linear-gradient(to right, #35c3c1, #00d6b7);
+    min-height: 2px;
+}
+
+.rs-panel-title {
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 15px;
+    border-top-right-radius: 2px;
+}
+
+.rs-panel-content {
+    width: 400px;
+    height: fit-content;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rs-panel-content > * {
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}

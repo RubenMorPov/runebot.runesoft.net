@@ -1,0 +1,13 @@
+@import './Fonts.css';
+@import './components/components.css';
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    font-family: 'Roboto Condensed';
+    color: whitesmoke;
+    background: linear-gradient(135deg, rgba(36, 46, 77, 0.9), rgba(137, 126, 121, 0.9));
+}
