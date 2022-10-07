@@ -12,11 +12,13 @@ const LoginView = (props) => {
     return loginState ? (
         <MainView></MainView>
     ) : (
-        <DefaultPanel>
-            <InputText label="User"></InputText>
-            <InputText label="Password" hideChars></InputText>
-            <Button text="Login" handler={handleLogin}></Button>
-        </DefaultPanel>
+        <div className="rs-login-view">
+            <DefaultPanel>
+                <InputText label="User"></InputText>
+                <InputText label="Password" hideChars></InputText>
+                <Button text="Login" handler={handleLogin}></Button>
+            </DefaultPanel>
+        </div>
     );
 };
 
